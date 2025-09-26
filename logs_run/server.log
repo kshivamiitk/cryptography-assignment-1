@@ -1,0 +1,9 @@
+[sever] starting on port 9000
+[server] waiting for two parties to connect ... 
+[server] accepted party connection 1 (fd=4)
+[server] accepted party connection 2 (fd = 5)
+[Server] OPENED alpha = [999999955, 31, 999999989]
+[Server] OPENED beta  = [999999891, 999999976, 97]
+[Server] OPENED e = [999999896, 999999981, 43]
+[Server] OPENED f = 716807320
+[server] connection closed, exiting
