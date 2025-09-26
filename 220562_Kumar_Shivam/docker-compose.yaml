@@ -1,0 +1,12 @@
+services:
+  mpc-demo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mpc_demo
+    command: ["${M}", "${N}", "${K}", "${Q}"]
+    ports:
+      - "9000:9000"
+    tty: true
+    stdin_open: true
+    restart: "no"
